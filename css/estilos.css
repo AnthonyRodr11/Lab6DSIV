@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebcd;
+}
+
+.header {
+    color: white;
+    padding: 20px;
+    background-color: #07575B;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color:  #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    float: left;
+    padding: 14px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+.post {
+    margin: 20px auto;
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+}
+
+.post-header h3 {
+    margin: 0;
+}
+
+.post-body {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.tabla-viajes{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+.tabla-fotos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-viajes th, .tabla-viajes td{
+
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+}
+.tabla-fotos td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-fotos img {
+    max-width: 100%;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer input[type="text"]{
+
+    padding: 5px;
+    margin: 5px;  
+}
+
+
+.footer input[type="email"] {
+    padding: 5px;
+    margin: 5px;
+}
+
+.submitbutton {
+    padding: 10px 20px;
+    background-color: #66A5AD;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submitbutton:hover {
+    background-color: #66A5AD;
+}
